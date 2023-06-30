@@ -7,7 +7,10 @@
 💡 Chessboard corners and chess pieces detected with YOLOv8. The position of the chess pieces on the board was converted to digital notation and best move analysis was done with Stockfish. The interface has been designed and usage simplified.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzVvemg5aDRiaWgwaXR1bnR4dDJucG81dDNxNWhianpnNDcwd3ZkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bvqmSkwn6lte32lneE/giphy.gif" alt="Object detection with YOLOv8, best move prediction with Stockfish" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzVvemg5aDRiaWgwaXR1bnR4dDJucG81dDNxNWhianpnNDcwd3ZkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bvqmSkwn6lte32lneE/giphy.gif" />
+</p>
+<p align="center">
+  Object detection with YOLOv8, best move prediction with Stockfish
 </p>
 
 
