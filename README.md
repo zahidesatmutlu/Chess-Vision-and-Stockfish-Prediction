@@ -12,9 +12,9 @@
 </p>
 
 ## Train
-Datasets are trained with 16GB Tesla T4 GPU via Google Colab.
+Datasets are trained with 16GB Tesla T4 GPU via [Google Colab](https://colab.research.google.com).
 
-✔️ If you want to make a new train, first run the roboflow code that contains the API code.
+✔️ If you want to make a new train, first run the [Roboflow](https://roboflow.com) code that contains the API code.
 
 ```bash
 pip install roboflow
@@ -40,8 +40,6 @@ Perspective transformed chess pieces dataset: https://universe.roboflow.com/nstu
   <img src="https://i.hizliresim.com/jkd9kbw.png" />
   Perspective transformed chess pieces training results (75 epoch)
 </p>
-
-
 
 ## Installations ⬇️
 
@@ -92,3 +90,7 @@ chess_vision/
 🔸 [https://doc.qt.io/qt-6/qtdesigner-manual.html](https://doc.qt.io/qt-6/qtdesigner-manual.html)
 
 🔸 [https://github.com/official-stockfish/Stockfish](https://github.com/official-stockfish/Stockfish)
+
+🔸 [https://colab.research.google.com](https://colab.research.google.com)
+
+🔸 [https://roboflow.com](https://roboflow.com)
