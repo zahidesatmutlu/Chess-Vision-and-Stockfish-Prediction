@@ -8,6 +8,7 @@
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzVvemg5aDRiaWgwaXR1bnR4dDJucG81dDNxNWhianpnNDcwd3ZkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bvqmSkwn6lte32lneE/giphy.gif" />
+  
 Object detection with YOLOv8, best move prediction with Stockfish
 </p>
 
