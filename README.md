@@ -19,12 +19,12 @@ Chess board corners dataset: https://universe.roboflow.com/nstuchess-iz6hx/corne
 Perspective transformed chess pieces dataset: https://universe.roboflow.com/nstuchess-iz6hx/chess-detection-3/dataset/1
 
 <p align="center">
-  <img src="https://www.hizliresim.com/jxi31qz.png" />
+  <img src="https://i.hizliresim.com/jxi31qz.png" />
   Chess board corners detection training results (100 epoch)
 </p>
 
 <p align="center">
-  <img src="https://www.hizliresim.com/jkd9kbw.png" />
+  <img src="https://i.hizliresim.com/jkd9kbw.png" />
   Perspective transformed chess pieces training results (75 epoch)
 </p>
 
