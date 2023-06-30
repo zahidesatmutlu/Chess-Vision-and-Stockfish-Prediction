@@ -15,6 +15,19 @@ Object detection with YOLOv8, best move prediction with Stockfish
 ## Train
 Datasets are trained with 16GB Tesla T4 GPU via Google Colab.
 
+✔️ If you want to make a new train, first run the roboflow code that contains the API code.
+
+```bash
+pip install roboflow
+```
+```bash
+from roboflow import Roboflow
+
+rf = Roboflow(api_key="*******************")
+project = rf.workspace("***********").project("corner-2")
+dataset = project.version(3).download("yolov8")
+```
+
 Chess board corners dataset: https://universe.roboflow.com/nstuchess-iz6hx/corners-hzmj3/dataset/1
 
 Perspective transformed chess pieces dataset: https://universe.roboflow.com/nstuchess-iz6hx/chess-detection-3/dataset/1
@@ -51,12 +64,6 @@ pip install ultralytics # install
 
 ```bash
 pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
-```
-
-✔️ Copy the test folder containing the images you will detect and your best.pt weight file to the project folder.
-
-```bash
-./chess_vision/%here%
 ```
 
 ✔️ The file structure should be like this:
