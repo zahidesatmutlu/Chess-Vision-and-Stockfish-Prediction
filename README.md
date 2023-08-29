@@ -1,10 +1,10 @@
 # Chess Vision and Stockfish Prediction
 
-🙌 Best move analysis with [YOLOv8](https://github.com/ultralytics/ultralytics) and [Stockfish](https://github.com/official-stockfish/Stockfish)!
+- Best move analysis with [YOLOv8](https://github.com/ultralytics/ultralytics) and [Stockfish](https://github.com/official-stockfish/Stockfish)!
 
 ## Overview
 
-💡 Chessboard corners and chess pieces detected with YOLOv8. The position of the chess pieces on the board was converted to digital notation and best move analysis was done with Stockfish. The interface has been designed and usage simplified.
+- Chessboard corners and chess pieces detected with YOLOv8. The position of the chess pieces on the board was converted to digital notation and best move analysis was done with Stockfish. The interface has been designed and usage simplified.
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzVvemg5aDRiaWgwaXR1bnR4dDJucG81dDNxNWhianpnNDcwd3ZkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bvqmSkwn6lte32lneE/giphy.gif" />
@@ -14,7 +14,7 @@
 ## Train
 Datasets are trained with 16GB Tesla T4 GPU via [Google Colab](https://colab.research.google.com).
 
-✔️ If you want to make a new train, first run the [Roboflow](https://roboflow.com) code that contains the API code.
+- If you want to make a new train, first run the [Roboflow](https://roboflow.com) code that contains the API code.
 
 ```bash
 pip install roboflow
@@ -41,29 +41,29 @@ Perspective transformed chess pieces dataset: https://universe.roboflow.com/nstu
   Perspective transformed chess pieces training results (75 epoch)
 </p>
 
-## Installations ⬇️
+## Installations
 
-✔️ A virtual environment is created for the system. (Assuming you have [Anaconda](https://www.anaconda.com/) installed.)
+- A virtual environment is created for the system. (Assuming you have [Anaconda](https://www.anaconda.com/) installed.)
 
 ```bash
 conda create -n chess_vision python -y
 conda activate chess_vision
 ```
 
-✔️ Clone repo and install [requirements.txt](https://github.com/zahidesatmutlu/yolov5-sahi/blob/master/requirements.txt) in a [Python>=3.7.0](https://www.python.org/downloads/) (3.9 recommended) environment, including [PyTorch>=1.7](https://pytorch.org/get-started/locally/) (1.9.0 recommended).
+- Clone repo and install [requirements.txt](https://github.com/zahidesatmutlu/yolov5-sahi/blob/master/requirements.txt) in a [Python>=3.7.0](https://www.python.org/downloads/) (3.9 recommended) environment, including [PyTorch>=1.7](https://pytorch.org/get-started/locally/) (1.9.0 recommended).
 
 ```bash
 git clone https://github.com/zahidesatmutlu/Chess-Vision-and-Stockfish-Prediction  # clone
 pip install ultralytics # install
 ```
 
-✔️ Install [CUDA Toolkit](https://developer.nvidia.com/cuda-11-6-0-download-archive) version 11.6 and install [PyTorch](https://pytorch.org/get-started/previous-versions/) version 1.9.0.
+- Install [CUDA Toolkit](https://developer.nvidia.com/cuda-11-6-0-download-archive) version 11.6 and install [PyTorch](https://pytorch.org/get-started/previous-versions/) version 1.9.0.
 
 ```bash
 pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
-✔️ The file structure should be like this:
+- The file structure should be like this:
 
 ```bash
 chess_vision/
@@ -81,16 +81,16 @@ chess_vision/
     stockfish_interface.ui
 ```
 
-## Resources 🤝
+## Resources
 
-🔸 [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
+- [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
 
-🔸 [https://pypi.org/project/PyQt5](https://pypi.org/project/PyQt5)
+- [https://pypi.org/project/PyQt5](https://pypi.org/project/PyQt5)
 
-🔸 [https://doc.qt.io/qt-6/qtdesigner-manual.html](https://doc.qt.io/qt-6/qtdesigner-manual.html)
+- [https://doc.qt.io/qt-6/qtdesigner-manual.html](https://doc.qt.io/qt-6/qtdesigner-manual.html)
 
-🔸 [https://github.com/official-stockfish/Stockfish](https://github.com/official-stockfish/Stockfish)
+- [https://github.com/official-stockfish/Stockfish](https://github.com/official-stockfish/Stockfish)
 
-🔸 [https://colab.research.google.com](https://colab.research.google.com)
+- [https://colab.research.google.com](https://colab.research.google.com)
 
-🔸 [https://roboflow.com](https://roboflow.com)
+- [https://roboflow.com](https://roboflow.com)
