@@ -80,6 +80,13 @@ chess_vision/
     stockfish_interface.py
     stockfish_interface.ui
 ```
+## Citation
+
+If you use this package in your work, please cite it as:
+
+```
+James Gallagher. (Mar 10, 2023). Represent Chess Boards Digitally with Computer Vision. Roboflow Blog: /chess-boards/
+```
 
 ## Resources
 
